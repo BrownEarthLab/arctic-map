@@ -30,3 +30,8 @@ For complete deployment instructions, see the **[Deployment Guide](.deployment/D
 
 #### Developers:
 Soujanya, Noreen
+
+DOI: 10.5281/zenodo.19210212
+
+As a part of: 
+Şalap-Ayça,S, Chen,N* ,C. Aryal*, S.C., Rocha1,M**. L.,  Bennett,M., Abbie Tingstad. (2026). A. Making the Arctic Legible.In The Many Arctics in 2050 (Amanda H. Lynch, Laurence C. Smith & Lawson W. Brigham eds., Cambridge Univ. Press, in press.)
