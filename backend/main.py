@@ -1,4 +1,5 @@
-from fastapi import FastAPI, HTTPException, Response, Query
+from fastapi import FastAPI, HTTPException, Response, Query, status
+from fastapi.middleware.cors import CORSMiddleware
 import geopandas as gpd
 import pandas as pd
 import fiona
