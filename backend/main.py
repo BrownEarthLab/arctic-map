@@ -33,7 +33,22 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-DB_PATH = "cpad.sqlite"
+def get_db_path():
+    # Check for database in Docker /app/database directory
+    docker_path = "/app/database/cpad.sqlite"
+    if os.path.exists(docker_path):
+        return docker_path
+    
+    # Default to local path relative to this file
+    local_path = os.path.join(os.path.dirname(__file__), "cpad.sqlite")
+    return local_path
+
+DB_PATH = get_db_path()
+
+@app.on_event("startup")
+async def startup_event():
+    """Log database path on application startup"""
+    print(f"[INFO] Using database at: {DB_PATH}")
 
 def get_available_layers():
     try:
