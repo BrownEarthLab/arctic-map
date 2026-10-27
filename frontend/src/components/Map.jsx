@@ -8,10 +8,11 @@ import bbox from '@turf/bbox';
 import { getApiUrl } from '../config/api';
 
 const COLOR_PALETTE = [
-  '#e6194b', '#ffe119', '#0082c8', '#ffb3ba', '#00a651',
-  '#46f0f0', '#4b0082', '#dda0dd', '#8b4513', '#ffd700',
-  '#000000', '#ffffff', '#ff8c00', '#90ee90', '#800080',
-  '#ffe4e1', '#008080', '#ffffe0', '#2f4f4f', '#fa8072'
+  '#332288', '#4477AA', '#66CCEE', '#228833',
+  '#44AA99', '#117733', '#EE6677', '#CC6677',
+  '#AA3377', '#882255', '#AA4499', '#E69F00',
+  '#DDCC77', '#999933', '#661100', '#CCBB44',
+  '#88CCEE', '#6699CC', '#BBBBBB', '#000000'
 ];
 
 const layerColorMap = {};
