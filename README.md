@@ -29,8 +29,8 @@ For complete deployment instructions, see the **[Deployment Guide](.deployment/D
 ---
 
 #### Developers:
-Version 1: Soujanya Aryal and Noreen Chen
-```
+Version 1: Soujanya Aryal and Noreen Chen.
+
 Version 1.1: Advait Misha ( web accessibility components added)
 
 DOI: 10.5281/zenodo.19210212
